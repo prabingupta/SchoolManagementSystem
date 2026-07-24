@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard — River Queens School</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.get_full_name|default:user.username }}</h1>
+    <p>Role: {{ role }}</p>
+    <p>This dashboard is reserved for future portal features. All content management is currently handled through the Django Admin panel.</p>
+</body>
+</html>
